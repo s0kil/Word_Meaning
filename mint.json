@@ -1,8 +1,9 @@
 {
   "name": "Word_Meaning",
   "application": {
-    "head": "assets/head.html",
-    "title": "Word Meaning"
+    "title": "Word Meaning",
+    "icon": "assets/icon.png",
+    "head": "assets/head.html"
   },
   "source-directories": ["source"]
 }
