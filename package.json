@@ -1,0 +1,22 @@
+{
+  "name": "word_meaning",
+  "version": "1.0.0",
+  "author": "s0kil",
+  "license": "MIT",
+  "keywords": [],
+  "description": "A Dictionary For Young Students",
+  "homepage": "https://github.com/s0kil/Word_Meaning",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s0kil/Word_Meaning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s0kil/Word_Meaning/issues"
+  },
+  "scripts": {
+    "productionBuild": "node tools/productionBuild.js"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
