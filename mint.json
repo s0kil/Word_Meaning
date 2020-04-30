@@ -1,0 +1,8 @@
+{
+  "name": "Word_Meaning",
+  "application": {
+    "head": "assets/head.html",
+    "title": "Word Meaning"
+  },
+  "source-directories": ["source"]
+}
