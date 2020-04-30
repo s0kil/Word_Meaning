@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "s0kil",
   "license": "MIT",
+  "private": true,
   "keywords": [],
   "description": "A Dictionary For Young Students",
   "homepage": "https://github.com/s0kil/Word_Meaning",
