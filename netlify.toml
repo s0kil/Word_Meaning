@@ -1,3 +1,3 @@
 [build]
-command = "npm run productionBuild"
+command = "npm run productionBuild && npm run optimizeFonts"
 publish = "dist"
