@@ -1,3 +1,13 @@
 [build]
-command = "npm run productionBuild && npm run optimizeFonts"
-publish = "dist"
+command = 'npm run productionBuild && npm run optimizeFonts'
+publish = 'dist'
+
+[[redirects]]
+from = '/*'
+status = 200
+to = 'index.html'
+
+[[headers]]
+for = '/'
+[headers.values]
+Link = '</index.js>; rel=preload; as=script'

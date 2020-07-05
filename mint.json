@@ -5,5 +5,11 @@
     "icon": "assets/icon.png",
     "head": "assets/head.html"
   },
-  "source-directories": ["source"]
+  "source-directories": ["source"],
+  "dependencies": {
+    "mint-animation": {
+      "repository": "https://github.com/Vechro/mint-animation.git",
+      "constraint": "0.0.0 <= v < 1.0.0"
+    }
+  }
 }
