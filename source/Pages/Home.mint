@@ -7,7 +7,7 @@ component Pages.Home {
         Maybe::Just inputElement =>
           sequence {
             Dictionary.getWordMeaning(Dom.getValue(inputElement))
-            Route.setRoute(Page::WordDefinition)
+            Window.navigate("/#{Dom.getValue(inputElement)}")
           }
 
         Maybe::Nothing => next {  }
